@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  background: #a722e6;
+}
+
+.container{
+  width:1025px;
+
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 30%;
+  /* background: #a722e6; */
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+}
+
+.logo-financehelp {
+  width: auto;
+  height: 132px;
+  position: relative;
+}
+
+.logo-facebook {
+  margin: 10px;
+  width: 68px;
+  height: 64px;
+  position: relative;
+}
+
+.logo-google {
+  margin: 10px;
+  width: 68px;
+  height: 64px;
+  position: relative;
+} 
+
+.finance-help {
+  color: #f8fd0e;
+  font: 40 40px "Cute Font", sans-serif;
+  position:relative;
+}
+
+.box-input {
+  margin: 10px;
+  padding: 10px 5px;
+  width: 70%;
+  height: 20px;
+  border: solid 1px #D9D9D9;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  text-align: left;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.box-button {
+  margin: 10px;
+  width: 50%;
+  height: 35px;
+  background-color: #28a745;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  font: 40 20px "Bellefair", sans-serif;
+}
+
+.e-mail {
+  color: #040404;
+  text-align: left;
+  font: 40 20px "Bellefair", sans-serif;
+  position: relative;
+}
+
+.senha {
+  color: #090808;
+  text-align: left;
+  font: 40 20px "Bellefair", sans-serif;
+  position: relative;
+}
+
+.ou-acesse-com {
+  margin: 10px;
+  color: #ffffff;
+  font: 40 20px "Bellefair", sans-serif;
+  position: relative;
+
+}
+
